@@ -1,0 +1,56 @@
+.typing-test-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: skyblue;
+}
+
+.typing-test-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  text-align: center;
+  width: 500px;
+  height: 300px;
+}
+
+.typing-test-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.typing-test-instructions {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.typing-test-word {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.typing-test-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.typing-test-result {
+  margin-top: 20px;
+}
+
+.typing-test-time {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.typing-test-completed {
+  font-size: 18px;
+  font-weight: bold;
+}

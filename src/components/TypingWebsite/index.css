@@ -1,0 +1,49 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  height: 100vh;
+}
+
+.user-input {
+  height: 50px;
+  width: 40%;
+  font-size: 25px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.givenLetters-container {
+  height: 40px;
+  width: 40%;
+  font-size: 35px;
+  border-radius: 6px;
+  background-color: #54aeff;
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.keyboard-img {
+  height: 250px;
+  width: 550px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.input-error {
+  height: 50px;
+  width: 40%;
+  font-size: 25px;
+  border-radius: 6px;
+  text-align: center;
+  background-color: red;
+}
+
+.accuracy {
+  font-weight: bold;
+}
